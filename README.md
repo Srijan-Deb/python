@@ -1,5 +1,6 @@
-# python
+
 #Assignment 1
+
 #Takes two numbers as input from the user
 #perform the basics operations
 
