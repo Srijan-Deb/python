@@ -1,8 +1,8 @@
-
 #Assignment 1
 
+
 #Takes two numbers as input from the user
-#perform the basics operations
+perform the basics operations
 
 a = int(input('Enter the first number: '))
 b = int(input('Enter the second number: '))
@@ -60,9 +60,9 @@ print(f"sine: {math.sin(num)}")
 
 #Assignment 4
 
-Module 5: Files, Exceptions, and Errors in Python
  
-Task 1: Read a File and Handle Errors 
+#Task 1: Read a File and Handle Errors 
+
 Problem Statement:  Write a Python program that:
 1.   Opens and reads a text file named sample.txt.
 2.   Prints its content line by line.
@@ -82,7 +82,7 @@ except FileExistsError():
     print(f"Error: The file '{sample.txt}' was not found")
           -----------------
 
-          Task 2: Write and Append Data to a File
+ Task 2: Write and Append Data to a File
  
 Problem Statement: Write a Python program that:
 1.   Takes user input and writes it to a file named output.txt.
