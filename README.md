@@ -1,4 +1,4 @@
-#Assignment 1
+#ASSIGNMENT 1
 
 
 #Takes two numbers as input from the user
@@ -14,7 +14,7 @@ print('Division : ',a/b)
 
 -----------------------------------------------------------------------------
 
-#Assignment 2
+#ASSIGNMENT 2
 
 
 # Task 1: Check if a Number is Even or Odd
@@ -34,7 +34,7 @@ print('The sum of numbers from 1 to 50 is: ',sum)
 
 --------------------------------------------------------------------------
 
-#Assignment 3
+#ASSIGNMENT 3
 
 # Task 1: Calculate Factorial using a Function
 
@@ -58,7 +58,7 @@ print(f"sine: {math.sin(num)}")
 
 ---------------------------------------------------------------------
 
-#Assignment 4
+#ASSIGNMENT 4
 
  
 #Task 1: Read a File and Handle Errors 
@@ -107,4 +107,40 @@ print(reading_file)
 
 -----------------------------------------------------------------------------
 
+#ASSIGNMENT 5
 
+Task 1: Create a Dictionary of Student Marks
+
+Problem Statement: Write a Python program that:
+1.   Creates a dictionary where student names are keys and their marks are values.
+2.   Asks the user to input a student's name.
+3.   Retrieves and displays the corresponding marks.
+4.   If the student’s name is not found, display an appropriate message.
+
+-----INPUT-------
+students={'Srijan':65,'Ayush':75,'Rijuan':68,'Alice':85}
+name=input("Enter the student's name: ")
+if name in students:
+    print(f"{name}'s marks: {students[name]}")
+else:
+    print("Student not found .")
+
+    -----------------
+
+    Task 2: Demonstrate List Slicing 
+    
+Problem Statement: Write a Python program that:
+1.   Creates a list of numbers from 1 to 10.
+2.   Extracts the first five elements from the list.
+3.   Reverses these extracted elements.
+4.   Prints both the extracted list and the reversed list
+
+-----INPUT-----
+numbers=list(range(1,11))
+print(f"Original list:{numbers}")
+first_five_numbers=numbers[0:5]
+print(f"Extracted first five elements: ",first_five_numbers)
+first_five_numbers.reverse()
+print("Reversed extracted elements: ",first_five_numbers)
+
+-----------------------------------------------------------------------------------------------
