@@ -1,8 +1,7 @@
 #ASSIGNMENT 1
 
 
-#Takes two numbers as input from the user
-perform the basics operations
+#Takes two numbers as input from the user,perform the basics operations
 
 a = int(input('Enter the first number: '))
 b = int(input('Enter the second number: '))
@@ -48,7 +47,7 @@ num = int(input("Enter a number: "))
 print(f"Factorial of {num} is: {factorial(num)}")
 
 
-#Task 2: Using the math module for Calculations
+# Task 2: Using the math module for Calculations
 
 from math import *
 num=int(input("Enter a number: "))
@@ -61,7 +60,7 @@ print(f"sine: {math.sin(num)}")
 #ASSIGNMENT 4
 
  
-#Task 1: Read a File and Handle Errors 
+# Task 1: Read a File and Handle Errors 
 
 Problem Statement:  Write a Python program that:
 1.   Opens and reads a text file named sample.txt.
@@ -82,7 +81,7 @@ except FileExistsError():
     print(f"Error: The file '{sample.txt}' was not found")
           -----------------
 
- Task 2: Write and Append Data to a File
+ # Task 2: Write and Append Data to a File
  
 Problem Statement: Write a Python program that:
 1.   Takes user input and writes it to a file named output.txt.
@@ -109,7 +108,7 @@ print(reading_file)
 
 #ASSIGNMENT 5
 
-Task 1: Create a Dictionary of Student Marks
+# Task 1: Create a Dictionary of Student Marks
 
 Problem Statement: Write a Python program that:
 1.   Creates a dictionary where student names are keys and their marks are values.
@@ -127,7 +126,7 @@ else:
 
     -----------------
 
-    Task 2: Demonstrate List Slicing 
+  #  Task 2: Demonstrate List Slicing 
     
 Problem Statement: Write a Python program that:
 1.   Creates a list of numbers from 1 to 10.
