@@ -1,7 +1,6 @@
-#ASSIGNMENT 1
+# ASSIGNMENT 1
 
-
-#Takes two numbers as input from the user,perform the basics operations
+# Takes two numbers as input from the user,perform the basics operations
 
 a = int(input('Enter the first number: '))
 b = int(input('Enter the second number: '))
@@ -13,7 +12,7 @@ print('Division : ',a/b)
 
 -----------------------------------------------------------------------------
 
-#ASSIGNMENT 2
+# ASSIGNMENT 2
 
 
 # Task 1: Check if a Number is Even or Odd
@@ -33,7 +32,7 @@ print('The sum of numbers from 1 to 50 is: ',sum)
 
 --------------------------------------------------------------------------
 
-#ASSIGNMENT 3
+# ASSIGNMENT 3
 
 # Task 1: Calculate Factorial using a Function
 
@@ -57,7 +56,7 @@ print(f"sine: {math.sin(num)}")
 
 ---------------------------------------------------------------------
 
-#ASSIGNMENT 4
+# ASSIGNMENT 4
 
  
 # Task 1: Read a File and Handle Errors 
@@ -106,7 +105,7 @@ print(reading_file)
 
 -----------------------------------------------------------------------------
 
-#ASSIGNMENT 5
+# ASSIGNMENT 5
 
 # Task 1: Create a Dictionary of Student Marks
 
